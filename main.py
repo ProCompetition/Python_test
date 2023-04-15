@@ -1,5 +1,5 @@
-print("Hello Wolrd!")
+n = int(input("введите число 1: "))
+m = int(input("введите число 2: "))
+s = n + m
 
-n = 116
-
-print(n)
+print(s)
