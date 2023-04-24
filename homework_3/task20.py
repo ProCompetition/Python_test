@@ -19,4 +19,4 @@ for i in range(len(word)):
         sum = sum + int(dictionary[word[i]])
     else:
         print(f'Используется недопустимый символ')
-print(f'Колличество полученных баллов равно {sum}')
+print(f'Количество полученных баллов равно {sum}')
