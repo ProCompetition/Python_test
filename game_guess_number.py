@@ -1,14 +1,14 @@
 import random
 
 print('Я загадал какое то число от 1 до 20.')
-print('Давайте ты попробуешь его угадать за 5 попыток?')
+print('Давайте Вы попробуешь его угадать за 5 попыток?')
 
 random_number = random.randint(1, 20)
 
 guesses_made = 0
 
 while guesses_made < 5:
-    your_number = int(input('Как думаете, какое число я загадал? Твое число: '))
+    your_number = int(input('Как думаете, какое число я загадал? Ваше число: '))
     guesses_made +=1
     if random_number > your_number:
         print('Мое число больше')
